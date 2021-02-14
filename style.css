@@ -56,5 +56,17 @@ p {
 
 .savage:hover {
     background-color: paleturquoise;
-    font-family:'Dawning of a New Day', cursive;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+.arctile:hover {
+    color: rebeccapurple;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pretty {
+    text-decoration: none;
 }
