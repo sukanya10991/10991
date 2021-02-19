@@ -22,27 +22,30 @@ p {
 
 
 .pretty {
-    position: absolute;
+    position: fixed;
     list-style: none;
     top: 10;
     left: 40;
     z-index: 10;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .savage {
-    float: left;
     color: black;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
     font-size: 25px;
+    text-decoration: none;
+    display: inline;
 }
 
 .savage:hover {
     background-color: paleturquoise;
     font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px;
 }
 
 .arctile:hover {
@@ -110,8 +113,8 @@ iframe {
     background: linear-gradient(mediumpurple 0%, goldenrod 100%);
     width: 100%;
     height: 800px;
-    font-size:10px;
-    color:white;
+    font-size: 10px;
+    color: white;
 }
 
 #Videos {
@@ -141,4 +144,12 @@ iframe {
 #hi {
     width: 600px;
     height: 600px;
+}
+
+#Fav iframe {
+    width: 70%;
+}
+
+#Fav {
+    background: linear-gradient(yellow 0%, red 100%)
 }
