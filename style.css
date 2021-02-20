@@ -153,3 +153,11 @@ iframe {
 #Fav {
     background: linear-gradient(yellow 0%, red 100%)
 }
+
+#Fav h3 {
+    display: inline;
+}
+
+#Fav {
+    text-align: center;
+}
